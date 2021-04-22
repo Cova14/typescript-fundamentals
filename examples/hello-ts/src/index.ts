@@ -12,7 +12,7 @@ function timeout(n: number) {
  * @param b second
  */
 export async function addNumbers(a: number, b: number) {
-  await timeout(500);
+  await timeout(2000);
   return a + b;
 }
 
